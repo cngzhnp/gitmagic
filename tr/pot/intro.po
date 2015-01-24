@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Cengizhan PASAOGLU <cengizhanpasaoglu@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2014-11-14 23:23+0200\n"
+"PO-Revision-Date: 2015-01-24 18:24+0200\n"
+"Last-Translator: Cengizhan <cengizhanpasaoglu@gmail.com>\n"
+"Language-Team: Cngzhnp <cengizhanpasaoglu@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Turkish\n"
+
+#. type: Plain text
+#: ../en/intro.txt:2
+msgid "== Introduction =="
+msgstr "== Giriş =="
+
+#. type: Plain text
+#: ../en/intro.txt:4
+msgid ""
+"I'll use an analogy to introduce version control. See http://en.wikipedia."
+"org/wiki/Revision_control[the Wikipedia entry on revision control] for a "
+"saner explanation."
+msgstr ""
+"Versiyon kontrol sistemlerini bir benzetme yaparak tanıtalım. Linkteki "
+"kontrol sistemiyle karşılaştırmakta fayda var bkz.http://en.wikipedia.org/"
+"wiki/Revision_control[Wikipedia'da Revision kontrol sistemi başlığı]"
+
+#. type: Plain text
+#: ../en/intro.txt:6
+msgid "=== Work is Play ==="
+msgstr "=== Oyun Çalışmaktır ==="
+
+#. type: Plain text
+#: ../en/intro.txt:8
+msgid ""
+"I've played computer games almost all my life. In contrast, I only started "
+"using version control systems as an adult. I suspect I'm not alone, and "
+"comparing the two may make these concepts easier to explain and understand."
+msgstr ""
+"Şimdiye kadar pek çok bilgisayar oyunu oynadım. Buna karşın, versiyon "
+"kontrol sistemlerini kullanmaya başladığımda yaşım ilerlemişti. Umarım bu "
+"iki içeriği karşılaştırmanın anlatmayı ve anlamayı daha kolay hale getirdiği "
+"konusunda yalnız değilimdir."
+
+#. type: Plain text
+#: ../en/intro.txt:10
+msgid ""
+"Think of editing your code, or document, as playing a game. Once you've made "
+"a lot of progress, you'd like to save. To do so, you click on the 'Save' "
+"button in your trusty editor."
+msgstr ""
+"Bir kodu ya da dökümanı düzenlemeyi düşünmek oyun oynamak gibidir. Oyunda "
+"belli bir aşamaya geldiğinizde oyununuzu kaydetmek istersiniz. Bunun için de "
+"yapmanız gereken sadece \"Kaydet\" butonuna basmak."
+
+#. type: Plain text
+#: ../en/intro.txt:12
+msgid ""
+"But this will overwrite the old version. It's like those old school games "
+"which only had one save slot: sure you could save, but you could never go "
+"back to an older state. Which was a shame, because your previous save might "
+"have been right at an exceptionally fun part of the game that you'd like to "
+"revisit one day. Or worse still, your current save is in an unwinnable "
+"state, and you have to start again."
+msgstr ""
+"Ama bu eski versiyonunun üzerine yazılacak. Eski oyunlarda kaydetmek için "
+"sadece 1 yer bulunanlar gibi, kaydedebilirsiniz ama önceki kaydettiklerinize "
+"geri dönemezsiniz. Çok utanç verici değil mi? Çünkü belki önceki "
+"kaydettiğiniz bölüm tekrar tekrar oynamak isteyeceğiniz bir bölüm olabilir. "
+"Daha da kötüsü, şimdiki kaydettiğiniz başarılı olduğunuz bi zaman "
+"olmayabilir ve yeniden başlamanız gerekebilir."
+
+#. type: Plain text
+#: ../en/intro.txt:14
+msgid "=== Version Control ==="
+msgstr "=== Versiyon Kontrol ==="
+
+#. type: Plain text
+#: ../en/intro.txt:16
+msgid ""
+"When editing, you can 'Save As...' a different file, or copy the file "
+"somewhere first before saving if you want to savour old versions. You can "
+"compress them too to save space. This is a primitive and labour-intensive "
+"form of version control. Computer games improved on this long ago, many of "
+"them providing multiple automatically timestamped save slots."
+msgstr ""
+"Bir dosyayı düzenlerken eski versiyonlarını saklamak isterseniz  'Farklı "
+"Kaydet...' seçeneğini kullanabilir ya da önce dosyayı başka bir yere "
+"kopyalarsınız. Hatta alandan kazanmak için sıkıştırma bile yapabilirsiniz. "
+"Bu yöntem versiyon kontrol için oldukça ilkel ve emek isteyen bir iş. "
+"Bilgisayar oyunları bunu yıllar önce geliştirdi ve artık çoğu otomatik "
+"olarak zaman bilgisine bağlı çoklu kayıtlar yapabiliyor."
+
+#. type: Plain text
+#: ../en/intro.txt:18
+msgid ""
+"Let's make the problem slightly tougher. Say you have a bunch of files that "
+"go together, such as source code for a project, or files for a website. Now "
+"if you want to keep an old version you have to archive a whole directory. "
+"Keeping many versions around by hand is inconvenient, and quickly becomes "
+"expensive."
+msgstr ""
+"Hadi bu problemi biraz daha zor hale getirelim. Diyelim ki elinizde birlikte "
+"bulunması gereken bir sürü dosyanız var; bir projenin kaynak kodları ya da "
+"bir websitesinin kaynak kodları gibi. Şimdi eski versiyonunu tutmak "
+"istiyorsanız, tüm klasörü arşivlemeniz gerekir. Böyle bir sürü versiyonunuz "
+"olduğunda elle yapmak çok güç olur üstelik yer açısından maliyetlidir de."
+
+#. type: Plain text
+#: ../en/intro.txt:20
+msgid ""
+"With some computer games, a saved game really does consist of a directory "
+"full of files. These games hide this detail from the player and present a "
+"convenient interface to manage different versions of this directory."
+msgstr ""
+"Bazı bilgisayar oyunları, oyunu kaydettiğinde klasördeki tüm dosyaları "
+"içermez. Bu oyunlar, bu detayı oyuncudan gizlerler ve bu klasörün farklı "
+"versiyonlarını kontrol edebilecekleri daha uygun bir arayüz sunarlar."
+
+#. type: Plain text
+#: ../en/intro.txt:22
+msgid ""
+"Version control systems are no different. They all have nice interfaces to "
+"manage a directory of stuff. You can save the state of the directory every "
+"so often, and you can load any one of the saved states later on. Unlike most "
+"computer games, they're usually smart about conserving space. Typically, "
+"only a few files change from version to version, and not by much. Storing "
+"the differences instead of entire new copies saves room."
+msgstr ""
+"Versiyon kontrol sistemleri de bunlardan farklı değil. Hepsi bu tarz "
+"şeylerin yönetebildiği güzel arayüzlere sahipler. Klasörünüz durumunu sık "
+"sık kaydedebilir ve hatta daha önce kaydettiğiniz bir duruma geri "
+"dönebilirsiniz. Çoğu bilgisayar oyununun aksine, yer tasarrufu konusunda "
+"oldukça başarılılar. Genellikle, versiyondan versiyona sadece bir kaç "
+"dosyada farklılıklar görülür,çok fazla değil yani. Bunların tüm kopyasını "
+"saklamak yerine sadece aralarındaki farkı saklar."
+
+#. type: Plain text
+#: ../en/intro.txt:24
+msgid "=== Distributed Control ==="
+msgstr "=== Dağıtık Kontrol ==="
+
+#. type: Plain text
+#: ../en/intro.txt:26
+msgid ""
+"Now imagine a very difficult computer game. So difficult to finish that many "
+"experienced gamers all over the world decide to team up and share their "
+"saved games to try to beat it. Speedruns are real-life examples: players "
+"specializing in different levels of the same game collaborate to produce "
+"amazing results."
+msgstr ""
+"Şimdi çok zor bir bilgisayar oyunu hayal edin. Oyunu bitirmek öyle zor ki, "
+"dünya üzerindeki pek çok usta oyuncu takım kurmaya karar verip, kendi "
+"kaydettikleri oyunları paylaşıyorlar.Speedrun gerçek hayattan bir örnek: "
+"farklı seviyelerdeki oyuncular bir araya gelip inanılmaz sonuçlar "
+"çıkarabiliyorlar."
+
+#. type: Plain text
+#: ../en/intro.txt:28
+msgid ""
+"How would you set up a system so they can get at each other's saves easily? "
+"And upload new ones?"
+msgstr ""
+"Nasıl bir sistem kurmalısınız ki her biri kaydettiklerine kolayca "
+"ulaşabilsin ve yenilerini yükleyebilsin?"
+
+#. type: Plain text
+#: ../en/intro.txt:30
+msgid ""
+"In the old days, every project used centralized version control. A server "
+"somewhere held all the saved games. Nobody else did. Every player kept at "
+"most a few saved games on their machine. When a player wanted to make "
+"progress, they'd download the latest save from the main server, play a "
+"while, save and upload back to the server for everyone else to use."
+msgstr ""
+"Önceleri, her proje merkezi versiyon kontrol sistemini kullanıyordu. Bir "
+"sunucu kaydedilen tüm oyunları bir yerde saklıyordu. Her oyuncu en fazla bir "
+"kaç oyunu kendi bilgisayarlarında tutabiliyordu. Eğer bir oyuncu bir oyun "
+"oynamak isterse, ana sunucudan son kaydedilmiş halini indirip,oynadıktan "
+"sonra kaydediyor ve diğerlerini de oynaması için ana sunucuya geri "
+"yüklüyordu."
+
+#. type: Plain text
+#: ../en/intro.txt:32
+msgid ""
+"What if a player wanted to get an older saved game for some reason? Maybe "
+"the current saved game is in an unwinnable state because somebody forgot to "
+"pick up an object back in level three, and they want to find the latest "
+"saved game where the game can still be completed. Or maybe they want to "
+"compare two older saved games to see how much work a particular player did."
+msgstr ""
+"Peki ya bir oyuncu daha önce kaydedilmiş bir oyuncu oynamak isterse? Belki "
+"de oyuncu kaydettiği oyunda kazanamadığı bir durumda, çünkü birisi seviye 3 "
+"teyken bir objeyi almayı unuttuğunda, oyunun tamamen bitirildiği en son "
+"kaydedilmiş hale geri dönmek isteyebilir. Ya da belirli bir oyuncunun neler "
+"yaptığına bakmak için kaydedilmiş iki oyunu karşılaştırmak isteyebilir."
+
+#. type: Plain text
+#: ../en/intro.txt:34
+msgid ""
+"There could be many reasons to want to see an older revision, but the "
+"outcome is the same. They have to ask the central server for that old saved "
+"game. The more saved games they want, the more they need to communicate."
+msgstr ""
+"Önceki hallerine bakmak için pek çok sebep olabilir ancak sonuç aynı. Ana "
+"sunucuya eski oyun var mı diye bağlanıp kontrol etmek durumundalar. Daha çok "
+"kaydedilen oyun daha çok iletişim demek."
+
+#. type: Plain text
+#: ../en/intro.txt:36
+msgid ""
+"The new generation of version control systems, of which Git is a member, are "
+"known as distributed systems, and can be thought of as a generalization of "
+"centralized systems. When players download from the main server they get "
+"every saved game, not just the latest one. It's as if they're mirroring the "
+"central server."
+msgstr ""
+"Yeni nesil versiyon kontrol sistemlerinin bir üyesi olarak Git, dağıtık "
+"kontol sistemleri olarak bilinir ve merkezi sistemlerin genelleştirilmiş "
+"hali olarak düşünülebilinir.Böylece oyuncular ana sunucudan her "
+"kaydettikleri oyunu indirebilir, yalnızca son halini değil. Bunlar merkezi "
+"sunucuların bir yansıması gibi görülebilir."
+
+#. type: Plain text
+#: ../en/intro.txt:38
+msgid ""
+"This initial cloning operation can be expensive, especially if there's a "
+"long history, but it pays off in the long run. One immediate benefit is that "
+"when an old save is desired for any reason, communication with the central "
+"server is unnecessary."
+msgstr ""
+"Bu ilk kopyalama işlemi biraz zahmetli olabilir,özellikle uzun bir geçmişi "
+"olan bir repository ise. Ancak buna değer. Bir diğer yararı ise herhangi bir "
+"sebeple eski bir kayda ulaşmak istediğinizde merkezi sunucuyla iletişime "
+"geçmek gereksiz hale gelmesidir."
+
+#. type: Plain text
+#: ../en/intro.txt:40
+msgid "=== A Silly Superstition ==="
+msgstr "=== Saçma Bir Batıl İnanç ==="
+
+#. type: Plain text
+#: ../en/intro.txt:42
+msgid ""
+"A popular misconception is that distributed systems are ill-suited for "
+"projects requiring an official central repository. Nothing could be further "
+"from the truth. Photographing someone does not cause their soul to be "
+"stolen. Similarly, cloning the master repository does not diminish its "
+"importance."
+msgstr ""
+"Popüler bir yanlış anlaşılma da dağıtık sistemlerin merkezi repository "
+"gerektiren projeler için uygun olmadığıdır. Hiçbir şey gerçekten bu kadar "
+"uzak olamaz. Birinin fotoğrafının çekilmesi ile o kişinin ruhunu ele "
+"geçiremezsiniz. Aynı şekilde, ana repository nin kopyalanması da onun "
+"önemini azaltmaz."
+
+#. type: Plain text
+#: ../en/intro.txt:44
+msgid ""
+"A good first approximation is that anything a centralized version control "
+"system can do, a well-designed distributed system can do better. Network "
+"resources are simply costlier than local resources. While we shall later see "
+"there are drawbacks to a distributed approach, one is less likely to make "
+"erroneous comparisons with this rule of thumb."
+msgstr ""
+"Merkezi versiyon kontrol sisteminin yapabileceklerini, iyi tasarlanmış bir "
+"dağıtık sistem çok daha iyi yapar yaklaşımı doğru olacaktır. Ağ kaynakları "
+"yerel kaynaklardan çok daha pahalıdır. Daha sonraları dağıtık yaklaşımın "
+"engelleri olabileceğini görürken, bu prensip sizin yanlış bir karşılaştırma "
+"yapma olasılığınızı azaltacaktır."
+
+#. type: Plain text
+#: ../en/intro.txt:48
+msgid ""
+"A small project may only need a fraction of the features offered by such a "
+"system, but using systems that scale poorly for tiny projects is like using "
+"Roman numerals for calculations involving small numbers."
+msgstr ""
+" Küçük bir projenin ihtiyaç duyabileceği özelliklerinin bir kısmını bu tür "
+"bir sistem sunabilir,ama bu yaklaşım ölçeklendirdiğinde sanki ufak tefek "
+"hesaplamalar için Roma rakamlarının kullanılması gibidir."
+
+#. type: Plain text
+#: ../en/intro.txt:50
+msgid ""
+"Moreover, your project may grow beyond your original expectations. Using Git "
+"from the outset is like carrying a Swiss army knife even though you mostly "
+"use it to open bottles. On the day you desperately need a screwdriver you'll "
+"be glad you have more than a plain bottle-opener."
+msgstr ""
+"Dahası projeniz sizin beklentilerinizin ötesinde büyüme gösterebilir. Git "
+"kullanmak da sanki çoğunlukla şişe açmak için taşıdığınız İsviçre çakısına "
+"benzer. Bir gün tornavidaya ihtiyacınız olduğunda sadece şişe açmaktan "
+"fazlasını yaptığı için memnun olmanız gibi."
+
+#. type: Plain text
+#: ../en/intro.txt:52
+msgid "=== Merge Conflicts ==="
+msgstr "=== Merge Sırasındaki Anlaşmazlıklar ==="
+
+#. type: Plain text
+#: ../en/intro.txt:54
+msgid ""
+"For this topic, our computer game analogy becomes too thinly stretched. "
+"Instead, let us again consider editing a document."
+msgstr ""
+"Bu konu için bizim bilgisayar oyunu örneği fazla uzadı. Bunun yerine biz bir "
+"dosyayı düzenlemeyi ele alalım."
+
+#. type: Plain text
+#: ../en/intro.txt:56
+msgid ""
+"Suppose Alice inserts a line at the beginning of a file, and Bob appends one "
+"at the end of his copy. They both upload their changes. Most systems will "
+"automatically deduce a reasonable course of action: accept and merge their "
+"changes, so both Alice's and Bob's edits are applied."
+msgstr ""
+"Diyelim ki Alice dosyanın başına bir satır ekliyor ve Bob da dosyanın sonuna "
+"bir satır ekliyor. İkisi de değişikliklerini yüklediler. Çoğu sistem "
+"otomatik olarak bu değişiklikleri anlayarak kabul edip birleştirecektir, "
+"böylece Alice'in de Bob'un da değişiklikleri uygulanacaktır."
+
+#. type: Plain text
+#: ../en/intro.txt:58
+msgid ""
+"Now suppose both Alice and Bob have made distinct edits to the same line. "
+"Then it is impossible to proceed without human intervention. The second "
+"person to upload is informed of a _merge conflict_, and must choose one edit "
+"over another, or revise the line entirely."
+msgstr ""
+"Şimdi ise diyelim ki Alice ve Bob aynı satırda farklı değişiklikler yapacak. "
+"Ancak bu değişiklikleri bir insanın müdahalesi olmadan yapmak imkansız gibi "
+"bişey. Bu değişikliği yapan ikinci kişi merge conflict(çakışma) hakkında "
+"bilgilendirilir ve birinin değişikliği tercih edilerek bu satır tamamıyla "
+"gözden geçirilir."
+
+#. type: Plain text
+#: ../en/intro.txt:59
+msgid ""
+"More complex situations can arise. Version control systems handle the "
+"simpler cases themselves, and leave the difficult cases for humans. Usually "
+"their behaviour is configurable."
+msgstr ""
+"Daha karmaşık durumlar da oluşabilir. Versiyon kontrol sistemleri daha basit "
+"durumları kendileri halledebilir ve çözemediklerini de insanlara bırakır. "
+"Genellikle bu davranışları yapılandırılabilinir."

@@ -1,0 +1,36 @@
+== Ek B: Kılavuzun Tercümesi ==
+
+Bu kılavuzu tercüme ederken aşağıdaki adımları takip etmenizi öneririm,çünkü
+yazılan script hızlıca HTML ve PDF versiyonlarını oluşturabilir ayrıca tüm
+tercümeler de aynı repository de bulunabilir.
+
+Kaynağı kopyaladıktan sonra,IETF ekine bakılarak (
+http://www.w3.org/International/articles/language-tags/Overview.en.php )
+istenen dile göre bir klasör oluşturulabilir. Örneğin, İngilizce için "en"
+ve Japonca için "ja" ya da Türkçe için "tr". Yeni klasör içerisinde,
+dosyaları alt klasörlerde tercüme edilecek halde oluşturulmuştur.
+
+Mesela, bu git kılavuzunu
+http://en.wikipedia.org/wiki/Klingon_language[Klingon] bu dilde çevirecek
+olsanız şunu yazmanız gerekir:
+
+$ git clone git://repo.or.cz/gitmagic.git
+ $ cd gitmagic
+ $ mkdir tlh  # "tlh" Klingon dilinin IETF karşılığında yer alan kod.
+ $ cd tlh
+ $ cp ../en/intro.txt .
+ $ edit intro.txt  # Bu dosyayı tercüme edin.
+
+ve her dosya için bu yapılır.
+
+Makefile dosyasını düzenledikten sonra 'TRANSLATIONS' değişkenine dil kodunu
+ekleyebilirsiniz (Türkçe için tr). Daha sonra yaptıklarınızı adım adım
+gözden geçirebilirsiniz.
+
+ $ make tlh
+ $ firefox book-tlh/index.html
+
+Sık sık değişiklerinizi commit edin, daha sonra hazır olduğunuzda bana haber
+verin. Github'ın arayüzünü kullanarak "gitmagic" projesini forklayıp,
+değişiklerinizi de push edebilir , sonrasında merge için bana
+gönderebilirsiniz.

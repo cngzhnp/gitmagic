@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2014-11-14 23:23+0200\n"
+"PO-Revision-Date: 2015-01-24 10:18+0200\n"
+"Last-Translator: Cengizhan <cengizhanpasaoglu@gmail.com>\n"
+"Language-Team: Cngzhnp <cengizhanpasaoglu@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Turkish\n"
+
+#. type: Plain text
+#: ../en/translate.txt:2
+msgid "== Appendix B: Translating This Guide =="
+msgstr "== Ek B: Kılavuzun Tercümesi =="
+
+#. type: Plain text
+#: ../en/translate.txt:6
+msgid ""
+"I recommend the following steps for translating this guide, so my scripts "
+"can quickly produce HTML and PDF versions, and all translations can live in "
+"the same repository."
+msgstr ""
+"Bu kılavuzu tercüme ederken aşağıdaki adımları takip etmenizi öneririm,çünkü "
+"yazılan script hızlıca HTML ve PDF versiyonlarını oluşturabilir ayrıca tüm "
+"tercümeler de aynı repository de bulunabilir."
+
+#. type: Plain text
+#: ../en/translate.txt:13
+msgid ""
+"Clone the source, then create a directory corresponding to the target "
+"language's IETF tag: see http://www.w3.org/International/articles/language-"
+"tags/Overview.en.php[the W3C article on internationalization]. For example, "
+"English is \"en\" and Japanese is \"ja\". In the new directory, and "
+"translate the +txt+ files from the \"en\" subdirectory."
+msgstr ""
+"Kaynağı kopyaladıktan sonra,IETF ekine bakılarak ( http://www.w3.org/"
+"International/articles/language-tags/Overview.en.php ) istenen dile göre bir "
+"klasör oluşturulabilir. Örneğin, İngilizce için \"en\" ve Japonca için \"ja"
+"\" ya da Türkçe için \"tr\". Yeni klasör içerisinde, dosyaları alt "
+"klasörlerde tercüme edilecek halde oluşturulmuştur."
+
+#. type: Plain text
+#: ../en/translate.txt:15
+msgid ""
+"For instance, to translate the guide into http://en.wikipedia.org/wiki/"
+"Klingon_language[Klingon], you might type:"
+msgstr ""
+"Mesela, bu git kılavuzunu  http://en.wikipedia.org/wiki/"
+"Klingon_language[Klingon] bu dilde çevirecek olsanız şunu yazmanız gerekir:"
+
+#. type: Plain text
+#: ../en/translate.txt:22
+#, no-wrap
+msgid ""
+" $ git clone git://repo.or.cz/gitmagic.git\n"
+" $ cd gitmagic\n"
+" $ mkdir tlh  # \"tlh\" is the IETF language code for Klingon.\n"
+" $ cd tlh\n"
+" $ cp ../en/intro.txt .\n"
+" $ edit intro.txt  # Translate the file.\n"
+msgstr ""
+"$ git clone git://repo.or.cz/gitmagic.git\n"
+" $ cd gitmagic\n"
+" $ mkdir tlh  # \"tlh\" Klingon dilinin IETF karşılığında yer alan kod.\n"
+" $ cd tlh\n"
+" $ cp ../en/intro.txt .\n"
+" $ edit intro.txt  # Bu dosyayı tercüme edin.\n"
+
+#. type: Plain text
+#: ../en/translate.txt:24
+msgid "and so on for each text file."
+msgstr "ve her dosya için bu yapılır."
+
+#. type: Plain text
+#: ../en/translate.txt:27
+msgid ""
+"Edit the Makefile and add the language code to the `TRANSLATIONS` variable.  "
+"You can now review your work incrementally:"
+msgstr ""
+"Makefile dosyasını düzenledikten sonra 'TRANSLATIONS' değişkenine dil kodunu "
+"ekleyebilirsiniz (Türkçe için tr). Daha sonra yaptıklarınızı adım adım "
+"gözden geçirebilirsiniz."
+
+#. type: Plain text
+#: ../en/translate.txt:30
+#, no-wrap
+msgid ""
+" $ make tlh\n"
+" $ firefox book-tlh/index.html\n"
+msgstr ""
+" $ make tlh\n"
+" $ firefox book-tlh/index.html\n"
+
+#. type: Plain text
+#: ../en/translate.txt:33
+msgid ""
+"Commit your changes often, then let me know when they're ready.  GitHub has "
+"an interface that facilitates this: fork the \"gitmagic\" project, push your "
+"changes, then ask me to merge."
+msgstr ""
+"Sık sık değişiklerinizi commit edin, daha sonra hazır olduğunuzda bana haber "
+"verin. Github'ın arayüzünü kullanarak \"gitmagic\" projesini forklayıp, "
+"değişiklerinizi de push edebilir , sonrasında merge için bana "
+"gönderebilirsiniz."
