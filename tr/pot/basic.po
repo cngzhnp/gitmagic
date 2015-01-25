@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: 2014-11-14 23:23+0200\n"
-"PO-Revision-Date: 2015-01-24 20:58+0200\n"
+"PO-Revision-Date: 2015-01-25 12:16+0200\n"
 "Last-Translator: Cengizhan <cengizhanpasaoglu@gmail.com>\n"
 "Language-Team: Cngzhnp <cengizhanpasaoglu@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -105,7 +105,7 @@ msgstr ""
 #. type: Plain text
 #: ../en/basic.txt:31
 msgid "Similarly, if you want Git to forget about certain files:"
-msgstr ""
+msgstr "Benzer şekilde, eğer "
 
 #. type: Plain text
 #: ../en/basic.txt:34
@@ -114,6 +114,8 @@ msgid ""
 " $ git rm kludge.h obsolete.c\n"
 " $ git rm -r incriminating/evidence/\n"
 msgstr ""
+" $ git rm kludge.h obsolete.c\n"
+" $ git rm -r incriminating/evidence/\n"
 
 #. type: Plain text
 #: ../en/basic.txt:36
@@ -132,12 +134,12 @@ msgstr ""
 #: ../en/basic.txt:40
 #, no-wrap
 msgid " $ git mv bug.c feature.c\n"
-msgstr ""
+msgstr " $ git mv bug.c feature.c\n"
 
 #. type: Plain text
 #: ../en/basic.txt:42
 msgid "=== Advanced Undo/Redo ==="
-msgstr ""
+msgstr "=== Advanced Undo/Redo ==="
 
 #. type: Plain text
 #: ../en/basic.txt:44
@@ -150,7 +152,7 @@ msgstr ""
 #: ../en/basic.txt:46
 #, no-wrap
 msgid " $ git log\n"
-msgstr ""
+msgstr " $ git log\n"
 
 #. type: Plain text
 #: ../en/basic.txt:48
@@ -161,7 +163,7 @@ msgstr ""
 #: ../en/basic.txt:49
 #, no-wrap
 msgid "----------------------------------\n"
-msgstr ""
+msgstr "----------------------------------\n"
 
 #. type: Plain text
 #: ../en/basic.txt:53
@@ -171,12 +173,15 @@ msgid ""
 "Author: Bob <bob@example.com>\n"
 "Date:   Tue Mar 14 01:59:26 2000 -0800\n"
 msgstr ""
+"commit 766f9881690d240ba334153047649b8b8f11c664\n"
+"Author: Bob <bob@example.com>\n"
+"Date:   Tue Mar 14 01:59:26 2000 -0800\n"
 
 #. type: Plain text
 #: ../en/basic.txt:55
 #, no-wrap
 msgid "    Replace printf() with write().\n"
-msgstr ""
+msgstr "    printf() write() ile değiştirildi.\n"
 
 #. type: Plain text
 #: ../en/basic.txt:59
@@ -186,6 +191,9 @@ msgid ""
 "Author: Alice <alice@example.com>\n"
 "Date:   Thu Jan 1 00:00:00 1970 +0000\n"
 msgstr ""
+"commit 82f5ea346a2e651544956a8653c0f58dc151275c\n"
+"Author: Alice <alice@example.com>\n"
+"Date:   Thu Jan 1 00:00:00 1970 +0000\n"
 
 #. type: Plain text
 #: ../en/basic.txt:61
@@ -194,6 +202,8 @@ msgid ""
 "    Initial commit.\n"
 "----------------------------------\n"
 msgstr ""
+"    İlk commit.\n"
+"----------------------------------\n"
 
 #. type: Plain text
 #: ../en/basic.txt:65
@@ -206,7 +216,7 @@ msgstr ""
 #: ../en/basic.txt:67
 #, no-wrap
 msgid " $ git reset --hard 766f\n"
-msgstr ""
+msgstr " $ git reset --hard 766f\n"
 
 #. type: Plain text
 #: ../en/basic.txt:69
@@ -225,7 +235,7 @@ msgstr ""
 #: ../en/basic.txt:73
 #, no-wrap
 msgid " $ git checkout 82f5\n"
-msgstr ""
+msgstr " $ git checkout 82f5\n"
 
 #. type: Plain text
 #: ../en/basic.txt:75
@@ -247,7 +257,7 @@ msgstr ""
 #: ../en/basic.txt:79
 #, no-wrap
 msgid " $ git checkout master\n"
-msgstr ""
+msgstr " $ git checkout master\n"
 
 #. type: Plain text
 #: ../en/basic.txt:82
@@ -288,7 +298,7 @@ msgstr ""
 #: ../en/basic.txt:92
 #, no-wrap
 msgid " $ git checkout 82f5 some.file another.file\n"
-msgstr ""
+msgstr " $ git checkout 82f5 some.file another.file\n"
 
 #. type: Plain text
 #: ../en/basic.txt:96
@@ -308,7 +318,7 @@ msgstr ""
 #: ../en/basic.txt:100
 #, no-wrap
 msgid " $ git checkout :/\"My first b\"\n"
-msgstr ""
+msgstr " $ git checkout :/\"Benim ilk branch im\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:103
@@ -321,7 +331,7 @@ msgstr ""
 #: ../en/basic.txt:105
 #, no-wrap
 msgid " $ git checkout master~5\n"
-msgstr ""
+msgstr " $ git checkout master~5\n"
 
 #. type: Plain text
 #: ../en/basic.txt:107
@@ -342,6 +352,8 @@ msgid ""
 " $ git commit -a\n"
 " $ git revert 1b6d\n"
 msgstr ""
+" $ git commit -a\n"
+" $ git revert 1b6d\n"
 
 #. type: Plain text
 #: ../en/basic.txt:115
@@ -353,7 +365,7 @@ msgstr ""
 #. type: Plain text
 #: ../en/basic.txt:117
 msgid "=== Changelog Generation ==="
-msgstr ""
+msgstr "=== Changelog Oluşturulması ==="
 
 #. type: Plain text
 #: ../en/basic.txt:120
@@ -366,12 +378,12 @@ msgstr ""
 #: ../en/basic.txt:122
 #, no-wrap
 msgid " $ git log > ChangeLog\n"
-msgstr ""
+msgstr " $ git log > ChangeLog\n"
 
 #. type: Plain text
 #: ../en/basic.txt:124
 msgid "=== Downloading Files ==="
-msgstr ""
+msgstr "=== İndirilen Dosyalar ==="
 
 #. type: Plain text
 #: ../en/basic.txt:126
@@ -447,30 +459,33 @@ msgid ""
 " $ git add .\n"
 " $ git commit -m \"First release\"\n"
 msgstr ""
+" $ git init\n"
+" $ git add .\n"
+" $ git commit -m \"İlk release\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:152
 msgid "Then tell your users to run:"
-msgstr ""
+msgstr "Ardından çalıştırmak için kullanıcılara söyleyin:"
 
 #. type: Plain text
 #: ../en/basic.txt:154
 #, no-wrap
 msgid " $ git clone your.computer:/path/to/script\n"
-msgstr ""
+msgstr " $ git clone your.computer:/path/to/script\n"
 
 #. type: Plain text
 #: ../en/basic.txt:156
 msgid ""
 "to download your script. This assumes they have ssh access. If not, run *git "
 "daemon* and tell your users to instead run:"
-msgstr ""
+msgstr "script inizi indirin. Bu da ssh erişiminizi varsayar. Eğer değilse,"
 
 #. type: Plain text
 #: ../en/basic.txt:158
 #, no-wrap
 msgid " $ git clone git://your.computer/path/to/script\n"
-msgstr ""
+msgstr " $ git clone git://your.computer/path/to/script\n"
 
 #. type: Plain text
 #: ../en/basic.txt:160
@@ -481,7 +496,7 @@ msgstr ""
 #: ../en/basic.txt:162
 #, no-wrap
 msgid " $ git commit -a -m \"Next release\"\n"
-msgstr ""
+msgstr " $ git commit -a -m \"Bir sonraki release\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:164
@@ -500,40 +515,40 @@ msgstr ""
 #. type: Plain text
 #: ../en/basic.txt:170
 msgid "=== What Have I Done? ==="
-msgstr ""
+msgstr "=== Neler Yaptım ==="
 
 #. type: Plain text
 #: ../en/basic.txt:172
 msgid "Find out what changes you've made since the last commit with:"
-msgstr ""
+msgstr "Son commit yapıldığından beri nelerin değiştiğini öğrenmek için:"
 
 #. type: Plain text
 #: ../en/basic.txt:174
 #, no-wrap
 msgid " $ git diff\n"
-msgstr ""
+msgstr " $ git diff\n"
 
 #. type: Plain text
 #: ../en/basic.txt:176
 msgid "Or since yesterday:"
-msgstr ""
+msgstr "Ya da dünden beri:"
 
 #. type: Plain text
 #: ../en/basic.txt:178
 #, no-wrap
 msgid " $ git diff \"@{yesterday}\"\n"
-msgstr ""
+msgstr " $ git diff \"@{yesterday}\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:180
 msgid "Or between a particular version and 2 versions ago:"
-msgstr ""
+msgstr "Ya da belirli bir versiyon ve 2 versiyon önceki hali:"
 
 #. type: Plain text
 #: ../en/basic.txt:182
 #, no-wrap
 msgid " $ git diff 1b6d \"master~2\"\n"
-msgstr ""
+msgstr " $ git diff 1b6d \"master~2\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:185
@@ -546,7 +561,7 @@ msgstr ""
 #: ../en/basic.txt:187
 #, no-wrap
 msgid " $ git whatchanged --since=\"2 weeks ago\"\n"
-msgstr ""
+msgstr " $ git whatchanged --since=\"2 weeks ago\"\n"
 
 #. type: Plain text
 #: ../en/basic.txt:189
@@ -587,7 +602,7 @@ msgstr ""
 #: ../en/basic.txt:199
 #, no-wrap
 msgid "   $ git diff B A | git apply\n"
-msgstr ""
+msgstr "   $ git diff B A | git apply\n"
 
 #. type: Bullet: '  2. '
 #: ../en/basic.txt:201
@@ -598,7 +613,7 @@ msgstr ""
 #: ../en/basic.txt:203
 #, no-wrap
 msgid "   $ git checkout A foo.c bar.h\n"
-msgstr ""
+msgstr "   $ git checkout A foo.c bar.h\n"
 
 #. type: Bullet: '  3. '
 #: ../en/basic.txt:205
